@@ -1,6 +1,6 @@
 # Origins
 
-Forked from [the excellent start by koizuss](https://github.com/koizuss/sublime-gradle), I've kept this project separate because I think some of my changes are really philosophical departures that not everyone may want.
+Forked from [the excellent start by kingofmalkier](https://github.com/kingofmalkier/sublime-gradle), I've kept this project separate.
 
 # Sublime Gradle
 
@@ -24,12 +24,12 @@ Use version:
 **To install manually and/or get the bleeding edge** using a shell/Terminal (on OS X, Linux or Cygwin), via git:
 
     cd ~/"Library/Application Support/Sublime Text 3/Packages/" # location on OS X; will be different on Linux & Windows
-    git clone https://github.com/kingofmalkier/sublime-gradle
+    git clone https://github.com/RMuskovets/sublime-gradle
 
 or, if you don't have git installed:
 
     cd ~/"Library/Application Support/Sublime Text 3/Packages/"
-    curl -L https://github.com/kingofmalkier/sublime-gradle/tarball/master | tar xf -
+    curl -L https://github.com/RMuskovets/sublime-gradle/tarball/master | tar xf -
 
 The plugin should be picked up automatically. If not, restart Sublime Text.
 
@@ -45,6 +45,8 @@ Recognized task types will highlight in a different color (in most color schemes
 
 Tasks of any sort highlight as functions, which means that the "Goto Anything..." will offer them as choices when you use '@'.
 
+Also, this package features Gradle commands directly from Sublime.
+
 ## Bugs and Feature Requests
 
-<https://github.com/kingofmalkier/sublime-gradle/issues>
+<https://github.com/RMuskovets/sublime-gradle/issues>
